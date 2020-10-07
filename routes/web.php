@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/hola', function () {
     return view('hola');
 });
+
+Route::get('/men', function () {
+    return view('men');
+});
